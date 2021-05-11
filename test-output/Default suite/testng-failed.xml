@@ -5,8 +5,10 @@
     <classes>
       <class name="getRequest.graphQlRequest">
         <methods>
-          <include name="Get_Finance_Methods"/>
           <include name="createRequestSpecification"/>
+          <include name="TestResponseCode"/>
+          <include name="Get_Products"/>
+          <include name="TestResponseFields"/>
         </methods>
       </class> <!-- getRequest.graphQlRequest -->
     </classes>
